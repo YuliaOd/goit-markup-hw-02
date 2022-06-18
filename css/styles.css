@@ -14,72 +14,73 @@ a {
     text-decoration: none;
 }
 body {
-        font-size: 14px;
-        line-height: 1.71;
-        font-family: var(--font-family-primary);
-        font-weight: 400;
-        background-color: #E5E5E5;
-        }
+    font-size: 14px;
+    line-height: 1.71;
+    font-family: var(--font-family-primary);
+    font-weight: 400;
+    background-color: #E5E5E5;
+    }
+
 .section-text {
     color: #757575;
-    Weight 400 
-    Size 14px 
-    Line height 1.71 
-   
+    font-weight: 400; 
+    font-size: 14px; 
+    line-height: 1.71;    
 }
+
 .section-title {
     color: var(--primary-text-color);
-    Weight 700 
-    Size 14px 
-    Line height 1.17
+    font-weight: 700; 
+    font-size: 14px; 
+    line-height: 1.17;
 }
 .logo {
-color: var(--primary-text-color);
-font-family: Raleway, sans-serif;
-font-weight: 700;
-Font size: 26px
-height: 1.19
+    color: var(--primary-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    Font-size: 26px;
+    line-height: 1.19;
 }
 .logo-footer {
     color:#FFFFFF ;
     font-family: Raleway, sans-serif;
     font-weight: 700;
-    Font size: 26px height: 1.19
+    Font size: 26px;
+    line-height: 1.19;
 }
 
 span {
     color: #2196F3;
 }
-
-.site-nav {
-font-family: Raleway, sans-serif;
-font-weight: 500;
-Font size: 14px 
-height: 1.14
-}
-
-.site-nav list {  
-font size: 14px
-Line height: 1.14}
 ul {
     list-style: none;
 }
+
 .hero-title {
     
     color: #FFFFFF;
     font-weight: 900;    
-    font size: 44px
-    height: 1.36    
+    font-size: 44px;
+    line-height: 1.36;    
 }
 .section-hero {
     text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,17;
    
 }
 .title-portfolio {
-Weight 700 
-Size 18px 
-Line height 2
-color: var(--title-text-color)
+    font-weight: 700; 
+    font-size: 18px; 
+    line-height: 2;
+    color: var(--title-text-color);
+}
+.text-portfolio {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #757575;
 }
 
 .hero {background-color: #2F303A;
@@ -122,20 +123,27 @@ footer {
     background-color: #2F303A;
 }
 .adress-footer {
-    font-stye: normal;
     color: #FFFFFF;
     font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    font-style: normal;
+}
+.adress-footer:hover,
+.adress-footer:focus {color:#2196F3;
 }
 
+}
 .name {
     color:var(--primary-text-color);
-    Weight 500
-    Size 16px 
-    Line height 1.17
+    font-weight: 500;
+    font-size: 16px; 
+    line-height: 1.17;
 }
 .work {
-    color: #757575
-    Weight 400 
-    Size 16px 
-    Line height 1.17
+    color: #757575;
+    font-weight: 400; 
+    font-size: 16px; 
+    line-height: 1.17;
 }
